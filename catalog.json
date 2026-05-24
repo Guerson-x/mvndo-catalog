@@ -1,0 +1,41 @@
+{
+  "marca": "MVNDO",
+  "descricao": "Le style sans frontières · Paris · Été 2026",
+  "repositorio": "https://github.com/Guerson-x/mvndo-catalog",
+  "raw_base": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main",
+  "ultima_atualizacao": "2026-05-24",
+  "produtos": {
+    "tops": {
+      "polos": [],
+      "tshirts_lisos": [],
+      "tshirts_graficos": [],
+      "regatas": [],
+      "camisas_lin": []
+    },
+    "bottoms": {
+      "shorts_cargo": [],
+      "calcoes_banho": [],
+      "shorts_casuais": [],
+      "calcas_chino": []
+    },
+    "conjuntos": {
+      "camisa_short": [],
+      "linho": [],
+      "streetwear": [],
+      "tropical": [],
+      "monocromatico": []
+    },
+    "acessorios": {
+      "oculos": [],
+      "correntes": [],
+      "pulseiras": [],
+      "aneis": [],
+      "brincos": []
+    },
+    "calcados": {
+      "claquettes": [],
+      "mocassins": [],
+      "sandalias": []
+    }
+  }
+}
