@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MVNDO Paris — Kits</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#0a0a0a;color:#f0f0f0;font-family:Arial,sans-serif}
+  header{background:#111;padding:36px 24px;text-align:center;border-bottom:1px solid #222}
+  header h1{font-size:2.2rem;letter-spacing:8px;color:#c9a84c}
+  header p{color:#888;margin-top:8px;letter-spacing:3px;font-size:.85rem}
+  .stats{background:#161616;padding:14px 24px;text-align:center;color:#c9a84c;font-size:.85rem;letter-spacing:3px;border-bottom:1px solid #1e1e1e}
+  main{max-width:1200px;margin:0 auto;padding:32px 24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
+  .kit-card{background:#111;border:1px solid #1e1e1e;border-radius:10px;overflow:hidden;text-decoration:none;color:#f0f0f0;transition:border-color .2s,transform .15s}
+  .kit-card:hover{border-color:#c9a84c;transform:translateY(-2px)}
+  .kit-img-wrap{position:relative;overflow:hidden}
+  .kit-img-wrap img{width:100%;height:220px;object-fit:cover;display:block;background:#0a0a0a;transition:transform .3s}
+  .kit-card:hover img{transform:scale(1.03)}
+  .kit-badge{position:absolute;top:12px;right:12px;background:#c9a84c;color:#000;padding:4px 12px;border-radius:20px;font-size:.7rem;font-weight:bold;letter-spacing:2px}
+  .kit-info{padding:18px 20px;display:flex;gap:14px;align-items:flex-start}
+  .kit-em{font-size:2rem;flex-shrink:0}
+  h2{font-size:1rem;letter-spacing:2px;margin-bottom:6px}
+  .kit-price{color:#c9a84c;font-size:1.2rem;font-weight:bold}
+  .kit-meta{font-size:.75rem;color:#666;margin-top:4px;letter-spacing:1px}
+  .section-title{font-size:.8rem;letter-spacing:4px;color:#555;text-transform:uppercase;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid #1e1e1e}
+  footer{text-align:center;padding:28px;color:#333;font-size:.75rem;letter-spacing:2px;border-top:1px solid #111;margin-top:48px}
+  .btn{display:inline-block;margin-top:16px;padding:10px 24px;border:1px solid #c9a84c;color:#c9a84c;text-decoration:none;border-radius:4px;font-size:.8rem;letter-spacing:2px;transition:background .2s,color .2s}
+  .btn:hover{background:#c9a84c;color:#000}
+</style>
+</head>
+<body>
+<header>
+  <h1>MVNDO KITS</h1>
+  <p>LE STYLE SANS FRONTIÈRES · 23 LOOKS · 6 KITS</p>
+</header>
+<div class="stats">6 KITS · 23 COMBINAÇÕES · 191 PRODUTOS NO CATÁLOGO</div>
+<main>
+  <p class="section-title">Clique num kit para ver todas as combinações</p>
+  <div class="grid">
+    <a href="kits/kit_verao_basico/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/camisetas/camiseta_liso_02_branco.webp" alt="Kit Verão Básico">
+        <div class="kit-badge">4 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">☀️</span>
+        <div>
+          <h2>Kit Verão Básico</h2>
+          <div class="kit-price">75-90€</div>
+          <div class="kit-meta">Custo ~29€ · Margem ~46€+</div>
+        </div>
+      </div>
+    </a>
+    <a href="kits/kit_soiree_color_bloc/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/conjuntos/conjunto_linho_01_kaki.webp" alt="Kit Soirée Color Bloc">
+        <div class="kit-badge">4 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">🌆</span>
+        <div>
+          <h2>Kit Soirée Color Bloc</h2>
+          <div class="kit-price">95-115€</div>
+          <div class="kit-meta">Custo ~35€ · Margem ~60€+</div>
+        </div>
+      </div>
+    </a>
+    <a href="kits/kit_resort_tropical/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/conjuntos/conjunto_linho_05_azul_ceu.webp" alt="Kit Resort Tropical">
+        <div class="kit-badge">4 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">🌴</span>
+        <div>
+          <h2>Kit Resort Tropical</h2>
+          <div class="kit-price">100-125€</div>
+          <div class="kit-meta">Custo ~42€ · Margem ~58€+</div>
+        </div>
+      </div>
+    </a>
+    <a href="kits/kit_urban_full_look/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/camisetas/camiseta_liso_01_preto.webp" alt="Kit Urban Full Look">
+        <div class="kit-badge">3 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">🏙️</span>
+        <div>
+          <h2>Kit Urban Full Look</h2>
+          <div class="kit-price">110-135€</div>
+          <div class="kit-meta">Custo ~47€ · Margem ~63€+</div>
+        </div>
+      </div>
+    </a>
+    <a href="kits/kit_casual_chic/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/polo/polo_03_navy.webp" alt="Kit Casual Chic + Pés">
+        <div class="kit-badge">4 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">✨</span>
+        <div>
+          <h2>Kit Casual Chic + Pés</h2>
+          <div class="kit-price">130-158€</div>
+          <div class="kit-meta">Custo ~58€ · Margem ~72€+</div>
+        </div>
+      </div>
+    </a>
+    <a href="kits/kit_pour_lui/kit.html" class="kit-card">
+      <div class="kit-img-wrap">
+        <img src="https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/polo/polo_05_bordeaux.webp" alt="Kit Pour Lui — Cadeau">
+        <div class="kit-badge">4 LOOKS</div>
+      </div>
+      <div class="kit-info">
+        <span class="kit-em">🎁</span>
+        <div>
+          <h2>Kit Pour Lui — Cadeau</h2>
+          <div class="kit-price">95-118€</div>
+          <div class="kit-meta">Custo ~41€ · Margem ~54€+</div>
+        </div>
+      </div>
+    </a></div>
+  <div style="text-align:center;margin-top:32px">
+    <a href="../catalog.html" class="btn">← VER CATÁLOGO COMPLETO</a>
+  </div>
+</main>
+<footer>MVNDO PARIS · CATÁLOGO INTERNO · 2026</footer>
+</body>
+</html>
