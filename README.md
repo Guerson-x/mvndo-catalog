@@ -1,59 +1,58 @@
 # MVNDO Paris — Catálogo de Produtos
 
-> Le style sans frontières · Paris · Été 2026
+> **Le style sans frontières · Paris · Été 2026**
 
-## Estrutura do repositório
+## Estrutura do catálogo
 
 ```
 mvndo-catalog/
-├── tops/
-│   ├── polos/              # Polos manga curta (uni, várias cores)
-│   ├── tshirts_lisos/      # T-shirts oversize lisos
-│   ├── tshirts_graficos/   # T-shirts oversize gráficos
-│   ├── regatas/            # Débardeurs / regatas
-│   └── camisas_lin/        # Camisas linho/viscose
-├── bottoms/
-│   ├── shorts_cargo/       # Shorts cargo multi-bolsos
-│   ├── calcoes_banho/      # Calções de banho / boardshorts
-│   ├── shorts_casuais/     # Shorts casuais com cordão
-│   └── calcas_chino/       # Calças chino leve
-├── conjuntos/
-│   ├── camisa_short/       # Conjunto camisa + short
-│   ├── linho/              # Conjunto linho liso
-│   ├── streetwear/         # Conjunto streetwear coordenado
-│   ├── tropical/           # Conjunto estampado tropical
-│   └── monocromatico/      # Conjunto monocromático
-├── acessorios/
-│   ├── oculos/             # Óculos de sol
-│   ├── correntes/          # Correntes aço inox
-│   ├── pulseiras/          # Pulseiras
-│   ├── aneis/              # Anéis
-│   └── brincos/            # Brincos
-├── calcados/
-│   ├── claquettes/         # Claquettes / tongs
-│   ├── mocassins/          # Mocassins / loafers
-│   └── sandalias/          # Sandálias romanas
-└── catalog.json            # Base de dados completa do catálogo
+│
+├── 👕 camisetas/              # T-shirts oversize (lisos, gráficos, regatas)
+├── 🎽 polo/                   # Polos manga curta uni
+├── 👔 camisas/                # Camisas linho / viscose
+├── 🩳 shorts/                 # Shorts cargo, banho, casuais
+├── 🧩 conjuntos/              # Conjuntos 2 peças coordenados
+│
+├── 💎 acessorios/
+│   ├── oculos/                # Óculos de sol
+│   ├── correntes/             # Correntes aço inox (finas + chunky)
+│   ├── colar/                 # Colares e pendentes
+│   ├── brincos/               # Brincos homme
+│   └── aneis/                 # Anéis e sets de anéis
+│
+├── 👟 calcados/               # Claquettes, mocassins, sandálias
+│
+└── 🎁 kits/
+    ├── kit_verao_basico/      # T-shirt + Short cargo + Óculos
+    ├── kit_soiree_color_bloc/ # Conjunto + Corrente + Óculos
+    ├── kit_resort_tropical/   # Conjunto tropical + Claquettes + Bijoux
+    ├── kit_urban_full_look/   # Look completo streetwear
+    ├── kit_casual_chic/       # Polo + Chino + Mocassim + Bijoux
+    └── kit_pour_lui/          # Kit presente completo MVNDO
 ```
 
-## Nomenclatura dos ficheiros
+## Nomenclatura de ficheiros
 
-Formato: `[produto]_[cor]_[variante].webp`
+`[produto]_[cor]_[numero].webp`
 
-Exemplo:
-- `polo_branco_01.webp`
-- `polo_bege_02.webp`  
-- `camisa_listras_azul_branco_01.webp`
+**Exemplos:**
+- `polo_branco_01.webp` · `polo_bege_02.webp` · `polo_kaki_03.webp`
+- `short_cargo_preto_01.webp` · `short_cargo_kaki_02.webp`
+- `oculos_preto_01.webp` · `corrente_dourada_01.webp`
+- `kit_verao_basico_look1.webp` · `kit_pour_lui_completo.webp`
 
-## Preços MVNDO
+## Tabela de preços MVNDO
 
-| Categoria | Custo Shein | Preço venda Vinted |
+| Categoria | Custo Shein + Embalagem | Preço venda Vinted |
 |---|---|---|
-| Tops | 4–14€ | 18–48€ |
-| Bottoms | 8–15€ | 24–50€ |
-| Conjuntos | 15–21€ | 52–82€ |
-| Acessórios | 2–7€ | 14–32€ |
-| Calçados | 6–17€ | 18–55€ |
+| Camisetas | 6–9€ | 22–30€ |
+| Polo | 12€ | 28–35€ |
+| Camisas | 17€ | 38–48€ |
+| Shorts | 11–13€ | 24–38€ |
+| Conjuntos | 21–26€ | 52–82€ |
+| Acessórios | 6–11€ | 14–34€ |
+| Calçados | 8–20€ | 18–55€ |
+| Kits | 29–58€ | 75–158€ |
 
 ---
-*MVNDO Paris · Imagens originais Shein · Uso comercial interno*
+*MVNDO Paris · Repositório privado · Uso comercial interno · 2026*
