@@ -6,109 +6,235 @@
   "repositorio": "https://github.com/Guerson-x/mvndo-catalog",
   "raw_base": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main",
   "ultima_atualizacao": "2026-05-24",
+  "total_imagens": 191,
   "categorias": {
-    "camisetas": {
-      "descricao": "T-shirts oversize lisos, gráficos e regatas",
-      "custo_shein": "6-9€",
-      "preco_venda": "22-30€",
-      "pasta": "camisetas/",
-      "produtos": []
-    },
     "polo": {
-      "descricao": "Polos manga curta uni - piqué coton",
-      "custo_shein": "10-12€",
-      "preco_venda": "28-35€",
-      "pasta": "polo/",
-      "produtos": []
+      "descricao": "Polos manga curta — 5+ modelos, 30+ cores",
+      "preco": "28-35€",
+      "imagens": 34
     },
-    "camisas": {
-      "descricao": "Camisas linho e viscose - estilo effortless",
-      "custo_shein": "14-17€",
-      "preco_venda": "38-48€",
-      "pasta": "camisas/",
-      "produtos": []
+    "camisetas": {
+      "descricao": "T-shirts oversize lisos e gráficos",
+      "preco": "22-30€",
+      "imagens": 19
     },
     "shorts": {
-      "descricao": "Shorts cargo, calções de banho e shorts casuais",
-      "custo_shein": "9-13€",
-      "preco_venda": "24-38€",
-      "pasta": "shorts/",
-      "produtos": []
+      "descricao": "Shorts cargo — múltiplas combinações de cor",
+      "preco": "24-38€",
+      "imagens": 13
+    },
+    "camisas": {
+      "descricao": "Camisas linho e viscose — 9+ modelos",
+      "preco": "38-48€",
+      "imagens": 27
     },
     "conjuntos": {
-      "descricao": "Conjuntos 2 peças coordenados - mínimo 52€",
-      "custo_shein": "21-26€",
-      "preco_venda": "52-82€",
-      "pasta": "conjuntos/",
-      "produtos": []
-    },
-    "acessorios": {
-      "descricao": "Bijoux e acessórios masculinos",
-      "pasta": "acessorios/",
-      "subcategorias": {
-        "oculos": { "descricao": "Óculos de sol vintage, Y2K, square", "custo": "5-8€", "venda": "18-26€", "produtos": [] },
-        "correntes": { "descricao": "Correntes aço inox finas e chunky", "custo": "5-11€", "venda": "18-34€", "produtos": [] },
-        "colar": { "descricao": "Colares e pendentes", "custo": "4-9€", "venda": "16-28€", "produtos": [] },
-        "brincos": { "descricao": "Brincos créoles, clous, argola", "custo": "3-6€", "venda": "14-20€", "produtos": [] },
-        "aneis": { "descricao": "Anéis simples e sets hip-hop", "custo": "3-8€", "venda": "14-30€", "produtos": [] }
-      }
+      "descricao": "Conjuntos 2 peças coordenados",
+      "preco": "52-82€",
+      "imagens": 16
     },
     "calcados": {
-      "descricao": "Claquettes, mocassins e sandálias romanas",
-      "custo_shein": "6-20€",
-      "preco_venda": "18-55€",
-      "pasta": "calcados/",
-      "produtos": []
+      "descricao": "Loafers e mocassins — 6 modelos",
+      "preco": "18-55€",
+      "imagens": 15
+    },
+    "acessorios": {
+      "oculos": {
+        "descricao": "Óculos de sol",
+        "preco": "18-26€",
+        "imagens": 14
+      },
+      "correntes": {
+        "descricao": "Correntes aço inox e prata 925",
+        "preco": "18-34€",
+        "imagens": 11
+      },
+      "colar": {
+        "descricao": "Colares e pendentes",
+        "preco": "16-28€",
+        "imagens": 14
+      },
+      "brincos": {
+        "descricao": "Brincos argola e kit",
+        "preco": "14-20€",
+        "imagens": 15
+      },
+      "aneis": {
+        "descricao": "Anéis e sets",
+        "preco": "14-30€",
+        "imagens": 13
+      }
     }
   },
   "kits": {
     "kit_verao_basico": {
       "nome": "Kit Verão Básico",
-      "composicao": ["camisetas", "shorts", "acessorios/oculos"],
-      "custo_total": "~29€",
-      "preco_venda": "75-90€",
-      "pasta": "kits/kit_verao_basico/",
-      "looks": []
+      "preco": "75-90€",
+      "custo": "~29€",
+      "margem": "~46-61€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_verao_basico/kit.html",
+      "n_looks": 4,
+      "looks": [
+        {
+          "nome": "Look A — All Black",
+          "pecas": [
+            "camiseta_preta",
+            "short_cargo_preto",
+            "oculos_fume"
+          ]
+        },
+        {
+          "nome": "Look B — Bege & Kaki",
+          "pecas": [
+            "camiseta_bege",
+            "short_cargo_kaki",
+            "oculos_dourado"
+          ]
+        },
+        {
+          "nome": "Look C — Blanc Total",
+          "pecas": [
+            "camiseta_branca",
+            "short_cargo_cinza",
+            "oculos_sport"
+          ]
+        },
+        {
+          "nome": "Look D — Cinza & Vert",
+          "pecas": [
+            "camiseta_cinza",
+            "short_cargo_verde",
+            "oculos_quadrado"
+          ]
+        }
+      ]
     },
     "kit_soiree_color_bloc": {
       "nome": "Kit Soirée Color Bloc",
-      "composicao": ["conjuntos", "acessorios/correntes", "acessorios/oculos"],
-      "custo_total": "~35€",
-      "preco_venda": "95-115€",
-      "pasta": "kits/kit_soiree_color_bloc/",
-      "looks": []
+      "preco": "95-115€",
+      "custo": "~35€",
+      "margem": "~60-80€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_soiree_color_bloc/kit.html",
+      "n_looks": 4,
+      "looks": [
+        {
+          "nome": "Look A — Linho Kaki Gold",
+          "pecas": [
+            "conjunto_linho_kaki",
+            "corrente_prata",
+            "oculos_dourado"
+          ]
+        },
+        {
+          "nome": "Look B — Preto Acier",
+          "pecas": [
+            "conjunto_linho_preto",
+            "corrente_grossa",
+            "oculos_fume"
+          ]
+        },
+        {
+          "nome": "Look C — Vert Olive Minimal",
+          "pecas": [
+            "conjunto_olive",
+            "corrente_fina",
+            "anel_prata"
+          ]
+        },
+        {
+          "nome": "Look D — Tropical Night",
+          "pecas": [
+            "conjunto_tropical",
+            "corrente_media",
+            "oculos_sport"
+          ]
+        }
+      ]
     },
     "kit_resort_tropical": {
       "nome": "Kit Resort Tropical",
-      "composicao": ["conjuntos", "calcados", "acessorios/oculos", "acessorios/correntes"],
-      "custo_total": "~42€",
-      "preco_venda": "100-125€",
-      "pasta": "kits/kit_resort_tropical/",
-      "looks": []
+      "preco": "100-125€",
+      "custo": "~42€",
+      "margem": "~58-83€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_resort_tropical/kit.html",
+      "n_looks": 4,
+      "looks": [
+        {
+          "nome": "Look A — Azul Céu Bege"
+        },
+        {
+          "nome": "Look B — Linho & Mocassim Preto"
+        },
+        {
+          "nome": "Look C — Tropical Loafer Brun"
+        },
+        {
+          "nome": "Look D — Kaki Resort Full"
+        }
+      ]
     },
     "kit_urban_full_look": {
       "nome": "Kit Urban Full Look",
-      "composicao": ["camisetas", "shorts", "calcados", "acessorios/correntes", "acessorios/aneis", "acessorios/oculos"],
-      "custo_total": "~47€",
-      "preco_venda": "110-135€",
-      "pasta": "kits/kit_urban_full_look/",
-      "looks": []
+      "preco": "110-135€",
+      "custo": "~47€",
+      "margem": "~63-88€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_urban_full_look/kit.html",
+      "n_looks": 3,
+      "looks": [
+        {
+          "nome": "Look A — Full Black Street"
+        },
+        {
+          "nome": "Look B — Urban Kaki"
+        },
+        {
+          "nome": "Look C — Blanc Minimal Street"
+        }
+      ]
     },
     "kit_casual_chic": {
       "nome": "Kit Casual Chic + Pés",
-      "composicao": ["polo", "shorts", "calcados", "acessorios/correntes", "acessorios/aneis"],
-      "custo_total": "~58€",
-      "preco_venda": "130-158€",
-      "pasta": "kits/kit_casual_chic/",
-      "looks": []
+      "preco": "130-158€",
+      "custo": "~58€",
+      "margem": "~72-100€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_casual_chic/kit.html",
+      "n_looks": 4,
+      "looks": [
+        {
+          "nome": "Look A — Navy Gold Premium"
+        },
+        {
+          "nome": "Look B — Bordeaux Élégant"
+        },
+        {
+          "nome": "Look C — Gris Sophistiqué"
+        },
+        {
+          "nome": "Look D — Vert & Bege Old Money"
+        }
+      ]
     },
     "kit_pour_lui": {
       "nome": "Kit Pour Lui — Cadeau",
-      "composicao": ["polo", "shorts", "acessorios/oculos", "acessorios/correntes", "acessorios/aneis"],
-      "custo_total": "~41€",
-      "preco_venda": "95-118€",
-      "pasta": "kits/kit_pour_lui/",
-      "looks": []
+      "preco": "95-118€",
+      "custo": "~41€",
+      "margem": "~54-77€",
+      "html": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main/kits/kit_pour_lui/kit.html",
+      "n_looks": 4,
+      "looks": [
+        {
+          "nome": "Look A — Cadeau Bordeaux"
+        },
+        {
+          "nome": "Look B — Cadeau Navy Élégant"
+        },
+        {
+          "nome": "Look C — Cadeau Blanc Classique"
+        },
+        {
+          "nome": "Look D — Cadeau Full Set Luxe"
+        }
+      ]
     }
   }
 }
