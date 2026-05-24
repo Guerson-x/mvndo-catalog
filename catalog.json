@@ -1,41 +1,114 @@
 {
   "marca": "MVNDO",
-  "descricao": "Le style sans frontières · Paris · Été 2026",
+  "slogan": "Le style sans frontières",
+  "cidade": "Paris",
+  "temporada": "Été 2026",
   "repositorio": "https://github.com/Guerson-x/mvndo-catalog",
   "raw_base": "https://raw.githubusercontent.com/Guerson-x/mvndo-catalog/main",
   "ultima_atualizacao": "2026-05-24",
-  "produtos": {
-    "tops": {
-      "polos": [],
-      "tshirts_lisos": [],
-      "tshirts_graficos": [],
-      "regatas": [],
-      "camisas_lin": []
+  "categorias": {
+    "camisetas": {
+      "descricao": "T-shirts oversize lisos, gráficos e regatas",
+      "custo_shein": "6-9€",
+      "preco_venda": "22-30€",
+      "pasta": "camisetas/",
+      "produtos": []
     },
-    "bottoms": {
-      "shorts_cargo": [],
-      "calcoes_banho": [],
-      "shorts_casuais": [],
-      "calcas_chino": []
+    "polo": {
+      "descricao": "Polos manga curta uni - piqué coton",
+      "custo_shein": "10-12€",
+      "preco_venda": "28-35€",
+      "pasta": "polo/",
+      "produtos": []
+    },
+    "camisas": {
+      "descricao": "Camisas linho e viscose - estilo effortless",
+      "custo_shein": "14-17€",
+      "preco_venda": "38-48€",
+      "pasta": "camisas/",
+      "produtos": []
+    },
+    "shorts": {
+      "descricao": "Shorts cargo, calções de banho e shorts casuais",
+      "custo_shein": "9-13€",
+      "preco_venda": "24-38€",
+      "pasta": "shorts/",
+      "produtos": []
     },
     "conjuntos": {
-      "camisa_short": [],
-      "linho": [],
-      "streetwear": [],
-      "tropical": [],
-      "monocromatico": []
+      "descricao": "Conjuntos 2 peças coordenados - mínimo 52€",
+      "custo_shein": "21-26€",
+      "preco_venda": "52-82€",
+      "pasta": "conjuntos/",
+      "produtos": []
     },
     "acessorios": {
-      "oculos": [],
-      "correntes": [],
-      "pulseiras": [],
-      "aneis": [],
-      "brincos": []
+      "descricao": "Bijoux e acessórios masculinos",
+      "pasta": "acessorios/",
+      "subcategorias": {
+        "oculos": { "descricao": "Óculos de sol vintage, Y2K, square", "custo": "5-8€", "venda": "18-26€", "produtos": [] },
+        "correntes": { "descricao": "Correntes aço inox finas e chunky", "custo": "5-11€", "venda": "18-34€", "produtos": [] },
+        "colar": { "descricao": "Colares e pendentes", "custo": "4-9€", "venda": "16-28€", "produtos": [] },
+        "brincos": { "descricao": "Brincos créoles, clous, argola", "custo": "3-6€", "venda": "14-20€", "produtos": [] },
+        "aneis": { "descricao": "Anéis simples e sets hip-hop", "custo": "3-8€", "venda": "14-30€", "produtos": [] }
+      }
     },
     "calcados": {
-      "claquettes": [],
-      "mocassins": [],
-      "sandalias": []
+      "descricao": "Claquettes, mocassins e sandálias romanas",
+      "custo_shein": "6-20€",
+      "preco_venda": "18-55€",
+      "pasta": "calcados/",
+      "produtos": []
+    }
+  },
+  "kits": {
+    "kit_verao_basico": {
+      "nome": "Kit Verão Básico",
+      "composicao": ["camisetas", "shorts", "acessorios/oculos"],
+      "custo_total": "~29€",
+      "preco_venda": "75-90€",
+      "pasta": "kits/kit_verao_basico/",
+      "looks": []
+    },
+    "kit_soiree_color_bloc": {
+      "nome": "Kit Soirée Color Bloc",
+      "composicao": ["conjuntos", "acessorios/correntes", "acessorios/oculos"],
+      "custo_total": "~35€",
+      "preco_venda": "95-115€",
+      "pasta": "kits/kit_soiree_color_bloc/",
+      "looks": []
+    },
+    "kit_resort_tropical": {
+      "nome": "Kit Resort Tropical",
+      "composicao": ["conjuntos", "calcados", "acessorios/oculos", "acessorios/correntes"],
+      "custo_total": "~42€",
+      "preco_venda": "100-125€",
+      "pasta": "kits/kit_resort_tropical/",
+      "looks": []
+    },
+    "kit_urban_full_look": {
+      "nome": "Kit Urban Full Look",
+      "composicao": ["camisetas", "shorts", "calcados", "acessorios/correntes", "acessorios/aneis", "acessorios/oculos"],
+      "custo_total": "~47€",
+      "preco_venda": "110-135€",
+      "pasta": "kits/kit_urban_full_look/",
+      "looks": []
+    },
+    "kit_casual_chic": {
+      "nome": "Kit Casual Chic + Pés",
+      "composicao": ["polo", "shorts", "calcados", "acessorios/correntes", "acessorios/aneis"],
+      "custo_total": "~58€",
+      "preco_venda": "130-158€",
+      "pasta": "kits/kit_casual_chic/",
+      "looks": []
+    },
+    "kit_pour_lui": {
+      "nome": "Kit Pour Lui — Cadeau",
+      "composicao": ["polo", "shorts", "acessorios/oculos", "acessorios/correntes", "acessorios/aneis"],
+      "custo_total": "~41€",
+      "preco_venda": "95-118€",
+      "pasta": "kits/kit_pour_lui/",
+      "looks": []
     }
   }
 }
